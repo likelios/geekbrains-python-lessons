@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fff0e0ec-2180-4f2a-b0b3-557b2af252bd" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/py_lesson2/hw02_easy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/py_lesson2/hw02_normal.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/py_lesson4/lesson_4_easy.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/py_lesson6/Python-1-lesson6-easy.py" afterPath="$PROJECT_DIR$/py_lesson6/Python-1-lesson6-easy.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -201,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518592966030</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add lessosns">
+      <created>1518593433515</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1518593433515</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
