@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 print('Задача - 1\n')
+
+
 # Опишите несколько классов TownCar, SportCar, WorkCar, PoliceCar
 # У каждого класса должны быть следующие аттрибуты:
 # speed, color, name, is_police - Булево значение.
@@ -9,7 +11,25 @@ print('Задача - 1\n')
 
 class TownCar:
 
-    def __init__(self, towncar_model, towncar_color, towncar_speed, is_police=False):
+    def __init__(self, model, color, speed, is_police=False):
+        self.model = model
+        self.color = color
+        self.speed = speed
+        self.police = is_police
+
+    def go(self):
+        return "поехал"
+
+    def stop(self):
+        return "остановился"
+
+    def turn(self, direction):
+        return "повернул {}".format(direction)
+
+
+class SportCar:
+
+    def __init__(self, model, color, speed, is_police=False):
         self.model = towncar_model
         self.color = towncar_color
         self.speed = towncar_speed
@@ -25,17 +45,13 @@ class TownCar:
         return "повернул {}".format(direction)
 
 
-car1 = TownCar(" Lada Granta", "черный", "60 км/час", False)
+car1 = TownCar('Черный авто', "черный", "60 км/час", False)
 print(car1.model, car1.color, car1.go(), car1.speed, car1.turn("направо"), \
       car1.stop(), car1.police)
 
-# ==================================================================
-# я не стал плодить другие классы, так как однотипного кода действительно
-# будет очень много (несколько подобных классов)
-# ==================================================================
-
-
 print('Задача - 2\n')
+
+
 # Посмотрите на задачу-1 подумайте как выделить общие признаки классов
 # в родительский и остальные просто наследовать от него.
 # ==================================================================
